@@ -1,0 +1,14 @@
+1.  First of all you need to install nodejs into your computer
+2.  Then you also have a visual studio code and ganache installed.
+3.  After that just creat a directory i which ou want work in
+4.  Then you need to install web3 package using node package manager as npm for that use command
+    " npm install web3 "
+5.  And if you want to insatll the in a specified directory then use a command 
+    " npm install --prefix ./ web3 "
+6.  when you installed that you must now able to run commands for web3 to check if its working
+7.  Use following commands to make sure it is succfully installed:
+    var Web3=require("web3")
+    Web3
+8.  You can either run that directly on cmdterminal or using viusla studios terminal
+9.  Now create a simple html and js file via visual studio code
+10. And start following codes i have written 
