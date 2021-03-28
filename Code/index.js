@@ -1,7 +1,7 @@
 
 //THE CONSOLE VERSION...
 var Web3=require("web3");// just like an import
-// If you dont want to be imported here and want to access it on client side e.g on browser you need to follow the index2.js
+// If you dont want to be imported here and want to access it on client side e.g on browser you need to follow the "Excercise_2.js"
 //like " import Web3 from 'web3' ";
 
 const rpcURL="HTTP://127.0.0.1:7545";// we need this cuz to ensure that we have address of functional blockchain in this case we have ganche's blocchain...
@@ -15,8 +15,8 @@ let address="0xdcCFbf09784000e6b593BfF1cA6E8776882940A0";
 //this will be the method you can access the balance of desired address...
 console.log("Start");
 
-//alternate of code given below is mentioned in index2.js
-// Moreover if you want to show the value of below to your web page insead of console see index2.js
+//alternate of code given below is mentioned in "Excercise_2.js"
+// Moreover if you want to show the value of below to your web page insead of console see "Excercise_2.js"
 Web3Isnt.eth.getBalance(address, (err, amount) => {
     console.log("balance in wei",amount);
     balance = Web3Isnt.utils.fromWei(amount, 'ether')
